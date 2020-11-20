@@ -5,24 +5,17 @@ body {
     margin: 0;
 }
 
+
 h1 {
-    color: white;
+    font-size: 30px;
     text-align: center;
 }
 
-h2 {
-    color: white;
-    text-align: center;
-}
-
-ul {
-    color: white;
-}
 
 li {
-    color: white;
     text-align: left;
 }
+
 
 footer {
     position: fixed;
@@ -34,10 +27,12 @@ footer {
     text-align: left;
 }
 
+
 .bar {
     background-color: black;
     height: 70px;
 }
+
 
 .logo {
     text-align: center;
@@ -52,6 +47,7 @@ footer {
     margin-top: 5%;
     }
 
+
 .screen2 {
     position: absolute;
     color: white;
@@ -61,6 +57,7 @@ footer {
     margin-top: 50px;
     color: white;
     }
+
 
 .screen3 {
     background: black;
@@ -75,10 +72,12 @@ footer {
     scrollbar-width: none;
     }
 
+
 .tv {
     position: absolute;
      }
 
+     
 .screen3::-webkit-scrollbar {
     display: none;
     }
