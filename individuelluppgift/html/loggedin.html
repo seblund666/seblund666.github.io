@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/style.css">
+<title>School Gallery</title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+<meta name="keywords" content="school gallery, school, platform">
+
+<meta name="description" content="School Gallery - ett bildgalleri för elever, föräldrar och lärare.">
+<body>
+    <div class="user">
+        <h1 id="signedInUser"></h1>
+    </div>
+
+	<div class="main-gallery">
+		<img src="../img/school.png"></img>
+        <div class="gallery">
+             <img src="../img/yard.jpg">
+            </div>
+        <div class="gallery">
+                <img src="../img/yard1.jpg">
+               </div>
+        <div class="gallery">
+                <img src="../img/yard2.jpg">
+               </div>       
+        <div class="gallery">
+                <img src="../img/yard3.jpg">
+               </div>
+        <div class="gallery">
+                <img src="../img/yard4.jpg">
+               </div>        
+        <div class="gallery">
+                <img src="../img/yard5.jpg">
+               </div>
+	</div>
+
+	<script>
+		// Check that browser support Storage
+		if (typeof(Storage) !== "undefined") {
+			// Obtain the signed in user as in saved localStorage and add a string for a nice look
+			document.getElementById("signedInUser").innerHTML = localStorage.getItem("loggedInUser") + "s fotogalleri";
+		} else {
+			//Cheeky error msg in case of incompatible browser
+			document.getElementById("signedInUser").innerHTML = "Error, browser does not support Web Storage!";
+		}
+	</script>    
+
+</body>
+
+</html>

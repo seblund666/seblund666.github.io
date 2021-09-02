@@ -1,0 +1,74 @@
+body {
+	background-color: #AEF5A4;
+	padding-top: 40px;
+}
+
+a {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+}
+
+p {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+	border-top: 1px solid #888;
+}
+
+img {
+	display: block;
+	margin: auto;
+	width: 40%;
+	padding: 20px;
+}
+
+/*log-in button*/
+.button {
+	display: inline-block;
+	text-align: center;
+	font-size: 16px;
+	width: 100%;
+	border: 1px solid #000;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+/*username properties*/
+.user {
+	padding-left: 120px;
+	margin: auto;
+	top: 150px;
+}
+/*Main div properties*/
+.main{
+	background-color: whitesmoke;
+	width: 630px;
+	height: 500px;
+	margin: auto;
+	top: 150px;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+/*gallery properties*/
+.main-gallery {
+	background-color: whitesmoke;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	top: 300px;
+	border-radius: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}

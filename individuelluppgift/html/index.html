@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="../css/style.css">
+<title>School Gallery</title>
+<meta charset="UTF-8">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Oxygen&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Roboto:wght@300&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="../css/styles.css">
+
+
+<meta name="keywords" content="school gallery, school, platform">
+
+<meta name="description" content="School Gallery - ett bildgalleri för elever, föräldrar och lärare.">
+<body>
+	<div class="main">
+		<img src="../img/school.png"></img>
+			<hr>
+		<h3>Logga in</h3>
+			
+		<!-- Form with username and password fields for the user to add login credentials -->
+		<form>
+			<p>Användarnamn</p>
+				<!-- Save users username in "username" -->
+				<input id="username">
+				<br><br><br>
+			<p>Lösenord</p>
+				<!-- Save users password in "password" -->
+				<input id="password">
+				<br><br><br>
+			<!-- When user clicks button, the js function getInfo() is called -->
+			<button type="button" onclick="getInfo()">Logga in</button>
+		</form>
+		
+			<br><br>
+			<hr>
+	</div>
+
+	<!-- point to the javascript file that handles the login function -->
+	<script src="../js/login.js"></script>
+	
+</body>
+</html>
